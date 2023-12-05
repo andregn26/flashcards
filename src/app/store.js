@@ -1,6 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-// import reducers
+import topicsReducer from "../features/topics/topicsSlice";
+import quizzesReducers from "../features/quizzes/quizzesSlice";
 
 export default configureStore({
-	reducer: {},
+	reducer: {
+		topics: topicsReducer,
+		quizzes: quizzesReducers,
+	},
 });

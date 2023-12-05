@@ -5,7 +5,6 @@ import NewTopicForm from "../components/NewTopicForm";
 import NewQuizForm from "../components/NewQuizForm";
 import Topics from "../features/topics/Topics";
 import Topic from "../features/topics/Topic";
-import Card from "../features/cards/Card";
 import Quiz from "../features/quizzes/Quiz";
 import Quizzes from "../features/quizzes/Quizzes";
 
